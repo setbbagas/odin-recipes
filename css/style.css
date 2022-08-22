@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.title {
+	font-size: 3rem;
+	margin: 2rem 0 1rem 1rem;
+}
+
+img {
+	width: 500px;
+	height: auto;
+}
+
+.subtitle {
+	font-size: 2rem;
+	margin: 2rem 0 1rem 1rem;
+}
+
+.para {
+	font-size: 1rem;
+	margin: 2rem 0 1rem 1rem;
+}
+
+.h3 {
+	font-size: 1.5rem;
+	margin: 2rem 0 1rem 1rem;
+}
+
+.items {
+	margin: 2rem 0 1rem 1rem;
+	padding-left: 2rem;
+}
+
+.links {
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+.link {
+	list-style: none;
+}
+
+.link > a {
+	text-decoration: none;
+	color: hotpink;
+}
